@@ -1,6 +1,6 @@
+# prototype work on aws pricing
 
-
-aws pricing
+Can I price up my Terraform as I design it?
 
 * describe-services
 
