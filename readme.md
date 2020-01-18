@@ -10,7 +10,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Usage
 
-Include this repository as a module in your existing terraform code:
+Include this repository as a module in your existing Terraform code:
 
 ```hcl
 module "pricing" {
@@ -25,13 +25,14 @@ module "pricing" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| artifact\_store | Map to populate the artifact block | map | n/a | yes |
-| common\_tags | Implements the common tags scheme | map | n/a | yes |
-| description | Description of build project | string | n/a | yes |
-| name |  | string | n/a | yes |
-| policypath |  | string | `""` | no |
-| role\_arn | Optionally supply an existing role | string | `""` | no |
-| stages | This list describes each stage of the build | list | n/a | yes |
+| filters | Filters for the service_code | list | `<list>` | no |
+| service\_code | The Product calls to query AmazonS3 | string | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| price | hashicorp required |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
