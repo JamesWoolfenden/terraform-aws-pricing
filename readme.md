@@ -15,12 +15,10 @@ lots of attributes
 
 * get-attribute-values
 aws pricing get-attribute-values --service-code AmazonEC2 --attribute-name location --region us-east-1
- 
+
 * get-products
 
 * help
-
-
 
 ($data|where {$_.ServiceCode -eq "AmazonS3"}).AttributeNames
 
@@ -42,4 +40,3 @@ operation
 group
 
 aws pricing get-attribute-values --service-code AmazonEC2 --attribute-name productFamily --region us-east-1
- 
