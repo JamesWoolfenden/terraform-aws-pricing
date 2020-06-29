@@ -1,6 +1,9 @@
 [![Slalom][logo]](https://slalom.com)
 
-# terraform-aws-pricing [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-pricing.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-pricing) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-pricing.svg)](https://github.com/JamesWoolfenden/terraform-aws-pricing/releases/latest)
+# terraform-aws-pricing
+
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-pricing/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-pricing)
+[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-pricing.svg)](https://github.com/JamesWoolfenden/terraform-aws-pricing/releases/latest)
 
 Prototype pricing module.
 
